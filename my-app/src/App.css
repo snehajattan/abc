@@ -1,0 +1,257 @@
+body {
+    background-color: #33363d;
+}
+
+.navb {
+    display: flex;
+    width: 90%;
+    height: 100px;
+    padding: 10px 50px;
+}
+
+.menu,
+.menu1 {
+    margin: 10px;
+    padding: 8px 20px;
+    color: white;
+}
+
+.outer {
+    margin: auto;
+    display: flex;
+}
+
+.menu1 {
+    margin-left: 10px;
+    color: gray;
+}
+
+.search {
+    height: 30px;
+    width: 120px;
+    margin: 35px 0px;
+    background-color: #48494d;
+    color: #9ea0ab;
+    border: transparent;
+    border-radius: 6px;
+    padding: 0px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    margin: 80px 300px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 16px;
+}
+
+.name {
+    color: #fcc969;
+    font-size: 40px;
+}
+
+.header {
+    background-color: #34353A;
+    height: 500px;
+    box-shadow: 0px 8px 10px #2d2e33;
+}
+.nexp
+{
+    font-size: 45px;   
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-left: 100px;
+    /* margin-top: 50px; */
+}
+div.about {
+    height: 2470px;
+    margin: 130px;
+}
+div.exp
+{
+    background-color: #3b3c3d;
+    height: 780px;  
+}
+span.about {
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.about {
+    display: flex;
+    color: white;
+    font-size: 23px;
+}
+
+hr {
+    width: 200px;
+    height: 2px;
+    background-color: #fcc969;
+    border: transparent;
+    border-radius: 2px;
+    margin: 15px 10px 0px 0px;
+}
+
+div.skill,
+.skill2
+{
+    background-color: #3e3f44;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 70px;
+    color: white;
+    font-size: 25px;
+    margin: 15px 15px;
+}
+.skill2
+{
+    background-color: #f4c163;
+}
+p.sk
+{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+div.row
+{
+    display: flex;
+    justify-content: center;
+}
+.skill1
+{
+    background-color: transparent;
+    height: 300px;
+    width: 250px;
+    margin-right: -200px;
+    margin-left: 80px;
+    margin-top: 160px;
+    display: inline-block;
+}
+.dots
+{
+    height: 12px;
+    width: 12px;
+    background-color: #fcc969;
+    border-radius: 50%;
+    margin:35px 23px;
+    opacity: 0.3;
+}
+.port
+{
+    font-size: 50px;
+    color: white;
+    margin-top: -80px;
+    text-align: center;
+    font-family:serif;
+    font-weight: 600;
+}
+.portfolio
+{
+    width: 330px;
+    height: 330px;
+    background-color: azure;
+    margin: 40px 12px;
+    margin-bottom: -20px;
+}
+.view
+{
+    margin: 60px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f9c76c;
+    border: none;
+    border-radius: 7px;
+    color: #2c2c30;
+}
+.exp1
+{
+    background-color: #3b3c3d;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin: 0px 300px;
+}
+.year
+{
+    display: flex;
+}
+.rect, .tri
+{
+    background-color: #6b6d73;
+    width: 60px;
+    height: 34px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.tri
+{
+    height: 0px;
+    width: 0px;
+    border-top: 18px solid #3b3c3d;
+    border-bottom: 17px solid #3b3c3d;
+    border-left: 15px solid #6b6d73;
+}
+.style
+{
+    display: block;
+    margin: auto;
+    margin: 5px 20px;
+    
+}
+.circle
+{
+    background-color: #f4c163;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 2px 3px 20px rgb(255, 153, 0);
+    /* margin: 5px 20px; */
+}
+.line
+{
+    background-color: white;
+    height: 260px;
+    width: 2px;
+    border-radius: 5px;
+    margin: 15px 10px;
+}
+div.text
+{
+    margin: 0px 20px;
+    margin-top: -20px;
+    margin-right: 300px;
+    color: white;
+}
+.txt1
+{
+    font-size: 16px;
+    color: #979aa0;
+}
+p.text
+{
+    line-height: 32px;
+}
+span.exp
+{
+    font-size: 30px;
+}
