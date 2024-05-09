@@ -1,128 +1,127 @@
 body {
     background-color: #33363d;
 }
-
+.header 
+{
+    background-color: #34353A;
+    height: 800px;
+    box-shadow: 0px 8px 10px #2d2e33;
+    overflow: hidden;
+}
 .navb {
     display: flex;
     width: 90%;
     height: 100px;
     padding: 10px 50px;
 }
-
-.menu,
-.menu1 {
-    margin: 10px;
-    padding: 8px 20px;
-    color: white;
-}
-
 .outer {
     margin: auto;
     display: flex;
 }
-
-.menu1 {
-    margin-left: 10px;
+.menu{
+    margin: 10px;
+    padding: 8px 20px;
     color: gray;
-}
+    font-size: 20px;
 
+}
+.menu:hover {
+    color: white; 
+    cursor: pointer;
+}
 .search {
-    height: 30px;
-    width: 120px;
+    height: 34px;
+    width: 130px;
     margin: 35px 0px;
     background-color: #48494d;
-    color: #9ea0ab;
+    color: #bdc0ce;
     border: transparent;
     border-radius: 6px;
-    padding: 0px 12px;
+    padding: 0px 12px 4px 12px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.intro {
-    margin: 80px 300px;
+div.intro {
+    margin: 80px 250px;
     color: white;
+    display: flex;
 }
-
-p {
-    font-size: 20px;
+p.intro {
+    font-size: 30px;
+    margin-top: 100px;
 }
-
-span {
-    font-size: 16px;
-}
-
 .name {
     color: #fcc969;
-    font-size: 40px;
-}
-
-.header {
-    background-color: #34353A;
-    height: 500px;
-    box-shadow: 0px 8px 10px #2d2e33;
-}
-.nexp
-{
-    font-size: 45px;   
-    color: white;
+    font-size: 60px;
     font-family:'Times New Roman', Times, serif;
-    font-weight: 700;
-    margin-left: 100px;
-    /* margin-top: 50px; */
+    margin-left: 10px;
+    font-weight: bold;
+}
+span {
+    font-size: 27px;
+}
+button.contact
+{
+    margin-top: 40px;
+    height: 60px;
+    width: 180px;
+    border: 5px solid #ffbe47;
+    background-color: transparent;
+    color: #ffbe47;
+    font-size: 23px;
+    border-radius: 10px;
+}
+button.contact:hover{
+    background-color: #ffbe47;
+    color: #2d2e33;
+}
+.img
+{
+    margin-left: 150px;
+    margin-top: -90px;
+}
+div.p1
+{
+    width: 40px;
+    height: 330px;
+    margin-top: 270px;
+}
+.line1
+{
+    height: 120px;
+    background-color: #ffbe47;
+    width: 3px;
+    border-radius: 5px;
+    margin: 20px 20px;
 }
 div.about {
-    height: 2470px;
-    margin: 130px;
-}
-div.exp
-{
-    background-color: #3b3c3d;
-    height: 780px;  
+    height: 2490px;
+    margin: 130px 280px 130px 180px;
 }
 span.about {
     font-size: 50px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-p.about {
-    display: flex;
-    color: white;
-    font-size: 23px;
-}
-
 hr {
     width: 200px;
-    height: 2px;
+    height: 3px;
     background-color: #fcc969;
     border: transparent;
     border-radius: 2px;
     margin: 15px 10px 0px 0px;
 }
-
-div.skill,
-.skill2
-{
-    background-color: #3e3f44;
-    height: 200px;
-    width: 250px;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 60px;
-    line-height: 70px;
+p.about {
+    display: flex;
     color: white;
-    font-size: 25px;
-    margin: 15px 15px;
-}
-.skill2
-{
-    background-color: #f4c163;
+    font-size: 23px;
+    margin-top: 23px;
 }
 p.sk
 {
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-top: 90px;
     margin-bottom: 5px;
@@ -132,7 +131,34 @@ div.row
     display: flex;
     justify-content: center;
 }
+div.skill,
 .skill1
+{
+    background-color: #3e3f44;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 25px;
+    margin: 15px 15px;
+    
+}
+.skill1
+{
+    background-color: #f4c163;
+}
+div.ub
+{
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.skill2
 {
     background-color: transparent;
     height: 300px;
@@ -168,11 +194,11 @@ div.row
     margin: 40px 12px;
     margin-bottom: -20px;
 }
-.view
+input[type=button].view
 {
     margin: 60px;
-    height: 50px;
-    width: 150px;
+    height: 55px;
+    width: 160px;
     font-size: 20px;
     font-weight: 500;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -181,14 +207,32 @@ div.row
     border-radius: 7px;
     color: #2c2c30;
 }
-.exp1
+input[type=button].view:hover{
+    background-color: rgba(239, 171, 46, 0.655);
+    cursor: pointer;
+}
+p.nexp
+{
+    font-size: 55px;   
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: -27px;
+}
+div.exp
 {
     background-color: #3b3c3d;
-    height: 270px;
+    height: 800px;  
+}
+div.exp1
+{
+    background-color: #3b3c3d;
+    height: 250px;
     display: flex;
     justify-content: center;
-    padding-top: 70px;
-    margin: 0px 300px;
+    padding-top: 90px;
+    margin: 0px 400px;
 }
 .year
 {
@@ -196,12 +240,13 @@ div.row
 }
 .rect, .tri
 {
-    background-color: #6b6d73;
-    width: 60px;
+    background-color: #595959;
+    width: 65px;
     height: 34px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
+    padding-top: 3px;
 }
 .tri
 {
@@ -209,14 +254,13 @@ div.row
     width: 0px;
     border-top: 18px solid #3b3c3d;
     border-bottom: 17px solid #3b3c3d;
-    border-left: 15px solid #6b6d73;
+    border-left: 15px solid #595959;
 }
 .style
 {
     display: block;
     margin: auto;
-    margin: 5px 20px;
-    
+    margin: 5px 20px;  
 }
 .circle
 {
@@ -225,7 +269,6 @@ div.row
     width: 25px;
     height: 25px;
     box-shadow: 2px 3px 20px rgb(255, 153, 0);
-    /* margin: 5px 20px; */
 }
 .line
 {
@@ -237,21 +280,25 @@ div.row
 }
 div.text
 {
-    margin: 0px 20px;
-    margin-top: -20px;
-    margin-right: 300px;
+    margin: 0px 30px;
+    margin-top: -25px;
     color: white;
-}
-.txt1
-{
-    font-size: 16px;
-    color: #979aa0;
 }
 p.text
 {
-    line-height: 32px;
+    line-height: 37px;
+    font-size: 23px;
 }
 span.exp
 {
-    font-size: 30px;
+    font-size: 34px;
 }
+p.txt1
+{
+    font-size: 20px;
+    color: #a3a5a9;
+    margin-top: -10px;
+}
+
+
+
